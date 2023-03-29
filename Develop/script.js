@@ -11,13 +11,40 @@ var generateBtn = document.querySelector("#generate");
 
 generateBtn.addEventListener("click", writePassword);
 
-function
-function generatePassword() {
+function typePassword() 
+{ var correctPrompts = getPrompts();
+  var passwordText = document.querySelector("#password");
+  
+  if (correctPrompts) {
+    var newPassword = generatePassword();
+    
+  }
+
+
+
+
+
+ function generatePassword() {
   console.log("I clicked the button")// Tested clicking the button
 
-
-// //Need to prompt user for the password criteria
+// Need to prompt user for the password criteria
   var password = prompt("Your Secure Password");
+
+  
+
+// Added a "parseInt"to convert the values into integers
+// Testing to see if this is ALL false
+function getPrompts(){
+  characterLength = parseInt(prompt("How many characters do you like your password to be? (8 - 128 characters"));
+  if(isNaN(characterLength)) || characterLength < 8 || characterLength > 128 {
+alert("Your character length has to be a Number, 8 - 128 digets. Please try again.");
+return false;
+}
+
+confirm
+
+}
+
 
 
 // // -password length
@@ -29,9 +56,6 @@ function generatePassword() {
 
 return "Generated Password"//Tested the "Return" generated password
  }
-function writePassword() { var password = generatePassword();
- var passwordText = document.querySelector("#password");
- passwordText.value = password;
 
 }
 
@@ -39,10 +63,11 @@ function writePassword() { var password = generatePassword();
 generateBtn.addEventListener("click", writePassword);
 
 
+// resourcces
 
+// https://stackoverflow.com/questions/17907455/how-to-get-numeric-value-from-a-prompt-box
 
-
-
+//https://www.w3docs.com/learn-javascript/javascript-simple-actions.html
 
 
 
