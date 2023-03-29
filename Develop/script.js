@@ -9,23 +9,28 @@ var numberArray = [`1`,`2,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`0`,];
 
 var generateBtn = document.querySelector("#generate");
 
+//I added "Event listener" to generate the button
 generateBtn.addEventListener("click", writePassword);
 
+//prompts will be either true or false
 function typePassword() 
 { var correctPrompts = getPrompts();
   var passwordText = document.querySelector("#password");
   
   if (correctPrompts) {
     var newPassword = generatePassword();
-    
+    passwordText.value = newPassword
   }
-
-
-
-
+else [
+  passwordTest.value = "";
+]
 
  function generatePassword() {
   console.log("I clicked the button")// Tested clicking the button
+  var password = '';
+  for(var x = 0; x < characterLength; x++) {
+
+  }
 
 // Need to prompt user for the password criteria
   var password = prompt("Your Secure Password");
@@ -35,14 +40,34 @@ function typePassword()
 // Added a "parseInt"to convert the values into integers
 // Testing to see if this is ALL false
 function getPrompts(){
-  characterLength = parseInt(prompt("How many characters do you like your password to be? (8 - 128 characters"));
-  if(isNaN(characterLength)) || characterLength < 8 || characterLength > 128 {
-alert("Your character length has to be a Number, 8 - 128 digets. Please try again.");
+  choiceArray = [];
+
+  // NaN below
+  characterLength = parseInt(prompt("How many characters would you like in your paasssword? (8 - 128 characters")); 
+
+  
+  if (isNaN(characterLength)) || characterLength < 8 || characterLength > 128 {
+alert("Your character length needs to be a Number, 8 - 128 digets. Please try again.");
 return false;
 }
 
-confirm
+if (confirm("Do you want to use special characters in your password?")) {
+  choiceArray = choiceArray.concat(specialChoiceArray);
 
+}
+if (confirm("Do you want to use lowercase letters in your password?")) {
+  choiceArray = choiceArray.concat(lowerCaseArray);
+
+}
+if (confirm("Do you want to use upper case letters in your password?")) {
+  choiceArray = choiceArray.concat(upperCaseChoiceArray);
+
+}
+if (confirm("Do you want to use numbers in your password?")) {
+  choiceArray = choiceArray.concat(numbersChoiceArray);
+
+}
+return true;
 }
 
 
@@ -59,8 +84,7 @@ return "Generated Password"//Tested the "Return" generated password
 
 }
 
- // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+ 
 
 
 // resourcces
@@ -69,6 +93,9 @@ generateBtn.addEventListener("click", writePassword);
 
 //https://www.w3docs.com/learn-javascript/javascript-simple-actions.html
 
+//https://www.geeksforgeeks.org/nan-not-number-java/
+
+//https://www.w3schools.com/jsref/jsref_obj_array.asp
 
 
 
