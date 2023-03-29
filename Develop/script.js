@@ -14,7 +14,7 @@ generateBtn.addEventListener("click", writePassword);
 
 //prompts will be either true or false
 function typePassword() {
-  var correctPrompts = getPrompts();
+    var correctPrompts = getPrompts();
 
   if (correctPrompts) {
   var password = generatePassword();
