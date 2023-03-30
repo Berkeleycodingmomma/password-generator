@@ -43,7 +43,7 @@ function getPrompts() {
   choiceArray = [];
 
   // NaN below
-  characterLength = parseInt(prompt("How many characters would you like in your paasssword? (8 - 128 characters"));
+  characterLength = parseInt(prompt("How many characters would you like in your paasssword? 8 - 128 characters please."));
 
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
