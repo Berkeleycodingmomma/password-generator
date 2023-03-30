@@ -21,7 +21,7 @@ function typePassword() {
     var newPassword = generatePassword();
     passwordText.value = newPassword;
   } else {
-    passwordTest.value = "";
+    passwordText.value = "";
   }
 }
 
@@ -47,7 +47,7 @@ function getPrompts() {
 
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
-    alert("Your character length needs to be a Number, 8 - 128 digets. Please try again.");
+    alert("Your character length needs to be a number, 8 - 128 digets. Please try again.");
     return false;
   }
   // User has four promt questions to help create a new password 
