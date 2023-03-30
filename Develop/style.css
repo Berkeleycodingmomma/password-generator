@@ -44,6 +44,7 @@ header {
 }
 
 .card-header::after {
+  text-align: center;
   content: " ";
   display: block;
   width: 100%;

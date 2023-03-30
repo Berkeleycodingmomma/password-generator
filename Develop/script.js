@@ -70,21 +70,16 @@ function getPrompts() {
     console.log("choiceArray", choiceArray)
   }
  
-  // retur n true;
+  // return true;
   return choiceArray //Tested the "Return" generated password
 }
 
 
 
 
-//PROMTUSER????
 
 
 
-
-
-
-// // -password length
 // // -criteria characters needed
 // // -make sure the users input is valid
 // // -generate password
