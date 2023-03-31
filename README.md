@@ -78,7 +78,7 @@ generateBtn.addEventListener("click", typePassword);
 
 * [LinkedIn](https://www.linkedin.com/in/amanda-gray-831a65254/)
 
-* [Deployed Application link]
+* [Deployed Application link] https://berkeleycodingmomma.github.io/password-generator/
 ```
 
 ## Credits
