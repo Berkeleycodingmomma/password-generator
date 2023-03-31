@@ -1,6 +1,6 @@
 var characterLength = 8;
 var choiceArray = [];
-//Added the special charaacter's needed
+//Added the special character's needed
 var specialCharacterArray = ['!', '@', '#', '$', '%', '^', '&', '*', ':', '.', '?', '/'];
 var lowerCaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 var upperCaseArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -66,7 +66,7 @@ function getPrompts() {
 
   }
   if (confirm("Do you want to use numbers in your password?")) {
-    choiceArray = choiceArray.concat(numberArray);
+   
     console.log("choiceArray", choiceArray)
   }
  
