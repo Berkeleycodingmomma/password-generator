@@ -24,7 +24,7 @@ I created an application that a user can use to generate a strong random secure 
 
      
 
-## Personal Portfolio Code Example of JavaScript
+## Password Generator, Code Example of JavaScript
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -69,7 +69,8 @@ generateBtn.addEventListener("click", typePassword);
  }
 
 **(ABOVE)- Concat. I spent some time researching this. I learned that it was a method that joins two or more arrays together. It will then return a new array containing the joined arrays BUT will never change the exsisting arrays. 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Author Info
 
@@ -79,10 +80,6 @@ generateBtn.addEventListener("click", typePassword);
 
 * [Deployed Application link]
 ```
-
-
-
-
 
 ## Credits
 
