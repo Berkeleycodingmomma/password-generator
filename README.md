@@ -35,4 +35,9 @@ I created an application that a user can use to generate a strong random secure 
 
 
 
-(ABOVE)- DOM Event Listners, after studing I learned that they "listen" for and action, then calls a function that performs a related task. In this example of code that is placed above, it is attaching an event handler to the specified element without overiding exsiting event handlers.  
+(ABOVE)- DOM Event Listners, after studing I learned that they "listen" for and action, then calls a function that performs a related task. In this example of code that is placed above, it is attaching an event handler to the specified element without overiding exsiting event handlers. 
+
+
+
+
+(ABOVE)- I used this and found Math.floor(Math.random)() interesting. Math.floor is a method used to round off the number passed as a parameter to it's nearest integar in a Downward direction of rounding i.e. towards the lesser value. Then using Math.random, it will use a function to return a floating-point psuedo-random number between the range [0-1), 0 (inclusive), and 1 (exclusive). 
