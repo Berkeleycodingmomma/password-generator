@@ -1,6 +1,6 @@
 # password-generator
 Creating a secure password generator
-# Personal-Portfolio
+# A Secure Password Generator (HTML, CSS, JavaScript)
 
 ## Technology Used 
 
@@ -27,3 +27,12 @@ I created an application that a user can use to generate a strong random secure 
 ## Personal Portfolio Code Example of JavaScript
 
 
+
+
+
+(ABOVE)- I learned alot about creating arrays (which are a sequence of values). They are a visual representation of repeated addition or multiplication. I learned how to declare a variable with an array type and then create the array itself. 
+
+
+
+
+(ABOVE)- DOM Event Listners, after studing I learned that they "listen" for and action, then calls a function that performs a related task. In this example of code that is placed above, it is attaching an event handler to the specified element without overiding exsiting event handlers.  
