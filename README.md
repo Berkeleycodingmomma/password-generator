@@ -28,11 +28,22 @@ I created an application that a user can use to generate a strong random secure 
 
 
 
-
+  if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
+    alert("Your character length needs to be a number, 8 - 128 digets. Please try again.");
+    return false;
+  }
+  // User has four promt questions to help create a new password 
+  if (confirm("Do you want to use special characters in your password?")) {
+    choiceArray = choiceArray.concat(specialCharacterArray);
+    console.log("choiceArray", choiceArray)
+  }
 
 (ABOVE)- I learned alot about creating arrays (which are a sequence of values). They are a visual representation of repeated addition or multiplication. I learned how to declare a variable with an array type and then create the array itself. 
 
 
+
+//I added "Event listener" to generate the button
+generateBtn.addEventListener("click", typePassword);
 
 
 (ABOVE)- DOM Event Listners, after studing I learned that they "listen" for and action, then calls a function that performs a related task. In this example of code that is placed above, it is attaching an event handler to the specified element without overiding exsiting event handlers. 
@@ -40,11 +51,24 @@ I created an application that a user can use to generate a strong random secure 
 
 
 
+ for (var x = 0; x < characterLength; x++) {
+    var randomIndex = Math.floor(Math.random() * choiceArray.length);
+    password = password + choiceArray[randomIndex]
+  }
+  console.log("password", password)
+  return password;
+}
+
+
 (ABOVE)- I used this and found Math.floor(Math.random)() interesting. Math.floor is a method used to round off the number passed as a parameter to it's nearest integar in a Downward direction of rounding i.e. towards the lesser value. Then using Math.random, it will use a function to return a floating-point psuedo-random number between the range [0-1), 0 (inclusive), and 1 (exclusive). 
 
 
 
+  if (confirm("Do you want to use upper case letters in your password?")) {
+    choiceArray = choiceArray.concat(upperCaseArray);
+    console.log("choiceArray", choiceArray)
 
+  }
 
 (ABOVE)- Concat. I spent some time researching this. I learned that it was a method that joins two or more arrays together. It will then return a new array containing the joined arrays BUT will never change the exsisting arrays. 
 
