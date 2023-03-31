@@ -18,16 +18,10 @@ Understanding concat: https://www.w3schools.com/jsref/jsref_concat_array.asp
 
 
 
+
 ## Description 
-I created an application that a user can use to generate a strong random secure password based on the four promts they were given in selecting the criteria. It features HTML, CSS, and powered by my JavaScript code. It adapts to multiple screen sizes. 
+I created an application that a user can use to generate a strong random secure password based on the four promts they were given in selecting the criteria. It features HTML, CSS, and is powered by my JavaScript code. It adapts to multiple screen sizes. 
 
+     
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Code Refactor Example](#code-refactor-example)
-
-
-
-## Personal Portfolio Code Example of HTML
+## Personal Portfolio Code Example of JavaScript
