@@ -51,6 +51,26 @@ I created an application that a user can use to generate a strong random secure 
 
 
 
+## Author Info
+
+### Amanda Gray 
+
+* [LinkedIn](https://www.linkedin.com/in/amanda-gray-831a65254/)
+
+* [Deployed Application link]
+```
+
+
+
+
+
+## Credits
+
+Shout out to UC Berkeley Instructor Jerome Chenette) and his TA's, Manuel Nunes, Kyle Vance, and James Harding! 
+
+
+
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
 
 
