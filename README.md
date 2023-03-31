@@ -13,7 +13,8 @@ Understanding DOM EventListeners: https://www.w3schools.com/js/js_htmldom_eventl
 
 Math.floor(Math.random()): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 |    
-understanding concat: https://www.w3schools.com/jsref/jsref_concat_array.asp
+
+Understanding concat: https://www.w3schools.com/jsref/jsref_concat_array.asp
 
 
 
