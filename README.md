@@ -41,3 +41,6 @@ I created an application that a user can use to generate a strong random secure 
 
 
 (ABOVE)- I used this and found Math.floor(Math.random)() interesting. Math.floor is a method used to round off the number passed as a parameter to it's nearest integar in a Downward direction of rounding i.e. towards the lesser value. Then using Math.random, it will use a function to return a floating-point psuedo-random number between the range [0-1), 0 (inclusive), and 1 (exclusive). 
+
+
+
